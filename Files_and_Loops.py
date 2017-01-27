@@ -1,19 +1,19 @@
 Files and Loops
 
-Opening Files
+ > Opening Files
 
 #To open a file in Python, we use the open() function.
 
   open("story.txt", "r")
 
-Reading Files
+  > Reading Files
 
 #We use the read() function to read the contents of "story.txt" into a File object, and assign that object to g:
 
   f = open("test.txt", "r")
   g = f.read()
-
-Splitting Files
+  
+  > Splitting Files
 
 #In Python, we can use the split() method to turn a string object into a list of strings, like so:
 
@@ -21,7 +21,7 @@ Splitting Files
   split_list = sample.split(",")
   # split_list is a list of _strings_: ["john", "plastic", "joe"]
 
-List of Lists
+  > List of Lists
 
 #The following code:
 
@@ -37,7 +37,7 @@ List of Lists
     final_list.append(split_list)
     print(final_list)
     
-  Splitting Elements In a List
+  > Splitting Elements In a List
 
 #Let's now convert the full dataset, rows, into a list of lists using the logic from the previous step.
 
@@ -52,7 +52,7 @@ List of Lists
       final_data.append(split_list)
       print(final_data[0:5])
 
-Challenge
+  > Challenge
 
 #Create a list of integers named int_crime_rates that contains just the crime rates - as integers - from the list rows.
 
