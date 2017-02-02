@@ -1,6 +1,6 @@
     > Replacing Characters
 
-    # We've read story.txt into the string story_string, and used the replace() method to remove all periods (.) and commas (,). Next, add code that removes single quotes ('), semi-colons (;), and newline characters ("\n").
+    #We've read story.txt into the string story_string, and used the replace() method to remove all periods (.) and commas (,). Next, add code that removes single quotes ('), semi-colons (;), and newline characters ("\n").
 
 
     f = open("story.txt", 'r')
