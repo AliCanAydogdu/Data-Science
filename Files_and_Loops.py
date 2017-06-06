@@ -1,6 +1,4 @@
-Files and Loops
-
- > Opening Files
+> Opening Files
 
 #To open a file in Python, we use the open() function.
 
