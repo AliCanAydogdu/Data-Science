@@ -1,4 +1,3 @@
-The file dictionary.txt contains a sequence of correctly spelled words, which we'll use to seed the vocabulary. The file story.txt contains a piece of text with some misspelled words. We added the current version of the spell checker as we wrote it in the previous mission to the following code cell.
 
 f = open("story.txt", 'r')
 story_string = f.read()
