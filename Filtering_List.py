@@ -1,5 +1,3 @@
- > Filtering the List
-
  # The data set contains first names shared by at least 100 people. Let's limit it those shared by at least 1,000 people.
 
  numerical_list[len(numerical_list)-1]
