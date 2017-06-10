@@ -1,5 +1,4 @@
-  > Dictionaries
-  
+
   #To figure out what score Sue got on the test, we'd first have to write a loop to find the index corresponding to the element Sue in the students list. We'd then have to find the value for that index in scores. Here's how we could do this:
 
   indexes = [0,1,2,3]
