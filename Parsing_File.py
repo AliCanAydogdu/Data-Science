@@ -1,5 +1,3 @@
- > Parsing The File
-
  # Here's the code we used to parse the crime_rates.csv file.
 
     f = open("crime_rates.csv", 'r')
